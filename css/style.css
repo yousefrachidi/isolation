@@ -1,0 +1,231 @@
+
+.test{
+  text-align: center;
+  color: #3190e9;
+  font-weight: 500;
+  font-size: 39px;
+  margin-left: -1px;
+
+}
+.nv{
+  hyphens: manual;
+  text-align: left;
+  box-sizing: border-box;
+
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0px;
+  font-style: normal;
+
+}
+
+.img-responsive{
+    width: 100%;
+    max-width: 600px;
+    height: 70vh;
+
+}
+.img-responsive2{
+    width: 100%;
+    max-width: 900px;
+    height: 90vh;
+    padding-top:35px;
+
+}
+.display-4{
+  color:rgba(0, 0, 0, 0.575);
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
+}
+    .img{
+        width: 110px;
+        height: 110px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 4px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+.img:hover{
+        border: 1px solid rgb(0, 132, 255);
+
+    }
+.select_image{
+    border: 3px solid rgb(15, 207, 111);
+    
+}
+#part_2, #part_3, #part_4, #part_5 {
+        display: none;
+       
+    }
+    
+    
+
+form .label{
+        font-size: 15px;
+        color: black;
+    }
+form .form-contro{
+        width: 110%;
+
+    }
+.sel {
+        padding: 10px;
+        background-image: linear-gradient(to right,#376eff,lightblue);
+       border-radius: 5px;
+
+    }
+    /*headre*/
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+      }
+      .bnth{
+         border-radius: 15px;
+         color: #333333;
+        
+         background-color: rgba(12, 183, 240, 0.972);
+         margin-bottom: 55px;
+      }
+    
+/*body*/
+#logo{
+    width: 72px;
+    height: auto;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+  
+  }
+
+#div_body {
+
+    width: 100%;
+    height: 90%;
+    background-color: darkgray;
+
+  
+  }
+  .container_fo,.container_fo h5{
+          
+           background-color: rgb(53, 52, 51);
+           color: rgb(248, 247, 242);
+
+       }
+
+       /* session*/
+       #travaux{
+        
+      
+      color: #333;
+      box-sizing: border-box;
+      margin-right: auto;
+      margin-left: auto;
+     
+      background-color: rgba(255, 255, 255, 0.70);
+      font-family: sans-serif;
+      padding-right: 50px;
+      padding-left: 50px;
+      line-height: 1.8em;
+      padding-bottom: 50px;
+      background-size: cover;
+      box-shadow: 0 5px 26px 1px rgba(181,181,181,.54);
+      margin-bottom: 15px;}
+    
+      #vos_tra{
+        -webkit-tap-highlight-color: transparent;
+      box-sizing: border-box;
+      line-height: 1.1;
+      font-size: 2.3em;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      margin-top: 50px;
+      color: #33608a;
+      margin-bottom: 50px;
+      text-align: center;
+      }
+      /*session 2*/
+      #h1{
+        color: #4f89aa;
+        hyphens: manual;
+        box-sizing: border-box;
+        font-style: normal;
+        margin-top: 55px;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 39px;
+  
+      }
+      #h2{
+      
+        hyphens: manual;
+        text-align: left;
+        box-sizing: border-box;
+        color: #000000;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 1.13;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-size: 24px;
+       
+      }
+      .h6{
+        margin-top:0px;
+        font-weight:700;
+       
+      }
+      .h6 figure{
+        width:35px;
+        height:35px;
+         display: inline-block;
+         margin-right:  6% ;
+
+      }
+/*svg*/
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.svg-content path {
+	fill: #9495ab;
+	stroke: white;
+	stroke-width: 2px;
+	stroke-linejoin: bevel;
+}
+
+
+svg path:hover  {
+  fill:  rgba(12, 183, 240, 0.972);
+
+}
+
+
+
+
+       /*///footre*/
+      .btn-rounded{
+        border: 1px solid white;
+        border-radius: 20px;
+        color: white;
+      
+        padding: 8px 20px 8px 20px;
+       }
+
+       #part_5 input[type='text'],#part_5 input[type='email'],#part_5 input[type='tel']
+       {
+         width: 100%;
+       
+       }
+      
+

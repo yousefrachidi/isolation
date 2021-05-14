@@ -1,8 +1,8 @@
 
 //close form
 function close(){
-  $('.navbar').show();
-  $('#part_1').show();
+   $('.navbar').show();
+   $('#part_1').show();
    $('#part_2').hide();
    $('#part_3').hide();
    $('#part_4').hide();
@@ -28,12 +28,11 @@ $('.uk-modal-close-full').click(function(){
     
      //message succe
      function succe(){
-            Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Your work has been saved',
-            showConfirmButton: false,
-            timer: 1500
+            Swal.fire({ 
+              icon: 'success',
+              title: 'Your work has been saved',
+              showConfirmButton: false,
+              timer: 3000
         });
 }
 
@@ -230,14 +229,13 @@ $('.uk-modal-close-full').click(function(){
                $.ajax({
                     url:"db.php",
                     type:"post",
-                  data:    'nom='+nom[0].value+ '&prenom='+prenom[0].value+'&sutiation='+sutiation+'&mode_chauf=' +mode_chauf+  '&comble=' +comble+ '&sous=' +sous+
+                    data: 'nom='+nom[0].value+ '&prenom='+prenom[0].value+'&sutiation='+sutiation+'&mode_chauf=' +mode_chauf+  '&comble=' +comble+ '&sous=' +sous+
                          '&garage=' +garage+ '&surfac_c=' + surfac_c+ '&surfac_s=' +surfac_s + '&surfac_g=' +surfac_g+ '&email=' +email[0].value+ '&codep='+codep+
                           '&commune=' +commune+  "&adress=" +adress+  '&tel='+ tel[0].value + '&nombre_pr=' +nombre_pr+ '&revenu='+revenu,
                     done:function(data){
                        for(var i in data)
                        {
-                        $('body').text(data[i]);
-                           
+                         $('body').text(data[i]); 
                        }
                         },
                     fail:function(hrx,status,data)
@@ -246,9 +244,12 @@ $('.uk-modal-close-full').click(function(){
                     }
                   
                     });
-                    
-                      succe(); 
-                      sessionStorage.setItem('swalcount', 2);
+                       succe();
+                        sessionStorage.setItem('swalcount', 2);
+                    e.preventDefault();
+                      setTimeout(function(){ 
+                         $("form").submit();  
+                      },2500);
                     
                 }
                 else 

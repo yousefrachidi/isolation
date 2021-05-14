@@ -1,4 +1,7 @@
 
+html{
+  scroll-behavior: smooth;
+}
 .test{
   text-align: center;
   color: #3190e9;
